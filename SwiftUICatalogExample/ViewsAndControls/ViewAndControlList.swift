@@ -22,6 +22,7 @@ struct ViewAndControlList: View {
       Section(header: Text("Button")) {
         NavigationLink("EditButton", destination: { EditButtonSample() })
         NavigationLink("Menus", destination: { MenuList() })
+        NavigationLink("Links", destination: { LinkList() })
       }
     }.navigationTitle("Views and Controls Samples")
   }
