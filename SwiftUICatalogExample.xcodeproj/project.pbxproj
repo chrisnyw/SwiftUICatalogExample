@@ -14,7 +14,7 @@
 		1849E76227E68925006F4349 /* SwiftUICatalogExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849E76127E68925006F4349 /* SwiftUICatalogExampleTests.swift */; };
 		1849E76C27E68926006F4349 /* SwiftUICatalogExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849E76B27E68926006F4349 /* SwiftUICatalogExampleUITests.swift */; };
 		1849E76E27E68926006F4349 /* SwiftUICatalogExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849E76D27E68926006F4349 /* SwiftUICatalogExampleUITestsLaunchTests.swift */; };
-		189574AF27E69373003D15E6 /* TextAndTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574AE27E69373003D15E6 /* TextAndTextField.swift */; };
+		189574AF27E69373003D15E6 /* ViewAndControlList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574AE27E69373003D15E6 /* ViewAndControlList.swift */; };
 		189574B227E906F0003D15E6 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574B127E906F0003D15E6 /* EmailTextField.swift */; };
 		189574B427E90895003D15E6 /* NameComponentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574B327E90895003D15E6 /* NameComponentTextField.swift */; };
 		189574B627E90DC0003D15E6 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574B527E90DC0003D15E6 /* NumberTextField.swift */; };
@@ -24,6 +24,13 @@
 		189574BE27E91339003D15E6 /* TextList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574BD27E91339003D15E6 /* TextList.swift */; };
 		189574C027E964C9003D15E6 /* TextEditorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574BF27E964C9003D15E6 /* TextEditorSample.swift */; };
 		189574C327E966DA003D15E6 /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574C227E966DA003D15E6 /* ImageList.swift */; };
+		189574C627E97DAA003D15E6 /* EditButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574C527E97DAA003D15E6 /* EditButtonSample.swift */; };
+		189574C827E97DB8003D15E6 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574C727E97DB8003D15E6 /* MenuList.swift */; };
+		189574CA27E98160003D15E6 /* MenuSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574C927E98160003D15E6 /* MenuSample.swift */; };
+		189574CC27E98399003D15E6 /* MenuLabelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574CB27E98399003D15E6 /* MenuLabelSample.swift */; };
+		189574CE27E98583003D15E6 /* MenuPrimaryActionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574CD27E98583003D15E6 /* MenuPrimaryActionSample.swift */; };
+		189574D027E99763003D15E6 /* MenuWithSectionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574CF27E99763003D15E6 /* MenuWithSectionSample.swift */; };
+		189574D227E99B9C003D15E6 /* MenuWithStyleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574D127E99B9C003D15E6 /* MenuWithStyleSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +61,7 @@
 		1849E76727E68926006F4349 /* SwiftUICatalogExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICatalogExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1849E76B27E68926006F4349 /* SwiftUICatalogExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICatalogExampleUITests.swift; sourceTree = "<group>"; };
 		1849E76D27E68926006F4349 /* SwiftUICatalogExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICatalogExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		189574AE27E69373003D15E6 /* TextAndTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndTextField.swift; sourceTree = "<group>"; };
+		189574AE27E69373003D15E6 /* ViewAndControlList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAndControlList.swift; sourceTree = "<group>"; };
 		189574B127E906F0003D15E6 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		189574B327E90895003D15E6 /* NameComponentTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameComponentTextField.swift; sourceTree = "<group>"; };
 		189574B527E90DC0003D15E6 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
@@ -64,6 +71,13 @@
 		189574BD27E91339003D15E6 /* TextList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextList.swift; sourceTree = "<group>"; };
 		189574BF27E964C9003D15E6 /* TextEditorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorSample.swift; sourceTree = "<group>"; };
 		189574C227E966DA003D15E6 /* ImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
+		189574C527E97DAA003D15E6 /* EditButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonSample.swift; sourceTree = "<group>"; };
+		189574C727E97DB8003D15E6 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		189574C927E98160003D15E6 /* MenuSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSample.swift; sourceTree = "<group>"; };
+		189574CB27E98399003D15E6 /* MenuLabelSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLabelSample.swift; sourceTree = "<group>"; };
+		189574CD27E98583003D15E6 /* MenuPrimaryActionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrimaryActionSample.swift; sourceTree = "<group>"; };
+		189574CF27E99763003D15E6 /* MenuWithSectionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuWithSectionSample.swift; sourceTree = "<group>"; };
+		189574D127E99B9C003D15E6 /* MenuWithStyleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuWithStyleSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,9 +165,10 @@
 		189574AD27E6934D003D15E6 /* ViewsAndControls */ = {
 			isa = PBXGroup;
 			children = (
+				189574C427E97D85003D15E6 /* Button */,
 				189574C127E966AA003D15E6 /* Image */,
 				189574B027E906C8003D15E6 /* TextField */,
-				189574AE27E69373003D15E6 /* TextAndTextField.swift */,
+				189574AE27E69373003D15E6 /* ViewAndControlList.swift */,
 				189574BD27E91339003D15E6 /* TextList.swift */,
 				189574BF27E964C9003D15E6 /* TextEditorSample.swift */,
 			);
@@ -179,6 +194,20 @@
 				189574C227E966DA003D15E6 /* ImageList.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		189574C427E97D85003D15E6 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				189574C527E97DAA003D15E6 /* EditButtonSample.swift */,
+				189574C727E97DB8003D15E6 /* MenuList.swift */,
+				189574C927E98160003D15E6 /* MenuSample.swift */,
+				189574CB27E98399003D15E6 /* MenuLabelSample.swift */,
+				189574CD27E98583003D15E6 /* MenuPrimaryActionSample.swift */,
+				189574CF27E99763003D15E6 /* MenuWithSectionSample.swift */,
+				189574D127E99B9C003D15E6 /* MenuWithStyleSample.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,11 +343,18 @@
 				189574B227E906F0003D15E6 /* EmailTextField.swift in Sources */,
 				189574BA27E90F8D003D15E6 /* PlaceholderTextField.swift in Sources */,
 				189574BE27E91339003D15E6 /* TextList.swift in Sources */,
-				189574AF27E69373003D15E6 /* TextAndTextField.swift in Sources */,
+				189574C627E97DAA003D15E6 /* EditButtonSample.swift in Sources */,
+				189574AF27E69373003D15E6 /* ViewAndControlList.swift in Sources */,
 				189574B627E90DC0003D15E6 /* NumberTextField.swift in Sources */,
 				189574C027E964C9003D15E6 /* TextEditorSample.swift in Sources */,
+				189574CC27E98399003D15E6 /* MenuLabelSample.swift in Sources */,
+				189574D027E99763003D15E6 /* MenuWithSectionSample.swift in Sources */,
 				189574B827E90F6E003D15E6 /* TextFieldList.swift in Sources */,
 				1849E75327E6891E006F4349 /* ContentView.swift in Sources */,
+				189574CA27E98160003D15E6 /* MenuSample.swift in Sources */,
+				189574D227E99B9C003D15E6 /* MenuWithStyleSample.swift in Sources */,
+				189574CE27E98583003D15E6 /* MenuPrimaryActionSample.swift in Sources */,
+				189574C827E97DB8003D15E6 /* MenuList.swift in Sources */,
 				189574B427E90895003D15E6 /* NameComponentTextField.swift in Sources */,
 				189574C327E966DA003D15E6 /* ImageList.swift in Sources */,
 				1849E75127E6891E006F4349 /* SwiftUICatalogExampleApp.swift in Sources */,

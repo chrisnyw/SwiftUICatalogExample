@@ -24,7 +24,7 @@ struct ComponemtList: View {
   var body: some View {
     List {
       Section(header: Text("User Interface")) {
-        NavigationLink("View and Controls", destination: TextAndTextField())
+        NavigationLink("View and Controls", destination: ViewAndControlList())
       }
     }.navigationBarTitle("Component")
   }
