@@ -22,6 +22,8 @@
 		189574BA27E90F8D003D15E6 /* PlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574B927E90F8D003D15E6 /* PlaceholderTextField.swift */; };
 		189574BC27E910AA003D15E6 /* SecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574BB27E910AA003D15E6 /* SecureField.swift */; };
 		189574BE27E91339003D15E6 /* TextList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574BD27E91339003D15E6 /* TextList.swift */; };
+		189574C027E964C9003D15E6 /* TextEditorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574BF27E964C9003D15E6 /* TextEditorSample.swift */; };
+		189574C327E966DA003D15E6 /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574C227E966DA003D15E6 /* ImageList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		189574B927E90F8D003D15E6 /* PlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextField.swift; sourceTree = "<group>"; };
 		189574BB27E910AA003D15E6 /* SecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField.swift; sourceTree = "<group>"; };
 		189574BD27E91339003D15E6 /* TextList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextList.swift; sourceTree = "<group>"; };
+		189574BF27E964C9003D15E6 /* TextEditorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorSample.swift; sourceTree = "<group>"; };
+		189574C227E966DA003D15E6 /* ImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +151,11 @@
 		189574AD27E6934D003D15E6 /* ViewsAndControls */ = {
 			isa = PBXGroup;
 			children = (
+				189574C127E966AA003D15E6 /* Image */,
 				189574B027E906C8003D15E6 /* TextField */,
 				189574AE27E69373003D15E6 /* TextAndTextField.swift */,
-				189574B727E90F6E003D15E6 /* TextFieldList.swift */,
 				189574BD27E91339003D15E6 /* TextList.swift */,
+				189574BF27E964C9003D15E6 /* TextEditorSample.swift */,
 			);
 			path = ViewsAndControls;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 		189574B027E906C8003D15E6 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
+				189574B727E90F6E003D15E6 /* TextFieldList.swift */,
 				189574B127E906F0003D15E6 /* EmailTextField.swift */,
 				189574B927E90F8D003D15E6 /* PlaceholderTextField.swift */,
 				189574B327E90895003D15E6 /* NameComponentTextField.swift */,
@@ -165,6 +171,14 @@
 				189574BB27E910AA003D15E6 /* SecureField.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		189574C127E966AA003D15E6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				189574C227E966DA003D15E6 /* ImageList.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +316,11 @@
 				189574BE27E91339003D15E6 /* TextList.swift in Sources */,
 				189574AF27E69373003D15E6 /* TextAndTextField.swift in Sources */,
 				189574B627E90DC0003D15E6 /* NumberTextField.swift in Sources */,
+				189574C027E964C9003D15E6 /* TextEditorSample.swift in Sources */,
 				189574B827E90F6E003D15E6 /* TextFieldList.swift in Sources */,
 				1849E75327E6891E006F4349 /* ContentView.swift in Sources */,
 				189574B427E90895003D15E6 /* NameComponentTextField.swift in Sources */,
+				189574C327E966DA003D15E6 /* ImageList.swift in Sources */,
 				1849E75127E6891E006F4349 /* SwiftUICatalogExampleApp.swift in Sources */,
 				189574BC27E910AA003D15E6 /* SecureField.swift in Sources */,
 			);
