@@ -39,6 +39,8 @@
 		189574DF27ECF7B2003D15E6 /* BehaviorStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */; };
 		189574E127ECFA5D003D15E6 /* RangeStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E027ECFA5D003D15E6 /* RangeStepperSample.swift */; };
 		189574E327ECFBBA003D15E6 /* CustomStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */; };
+		189574E527ED0971003D15E6 /* SimpleToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E427ED0971003D15E6 /* SimpleToggleSample.swift */; };
+		189574E727ED0CCF003D15E6 /* AdvancedToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E627ED0CCF003D15E6 /* AdvancedToggleSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorStepperSample.swift; sourceTree = "<group>"; };
 		189574E027ECFA5D003D15E6 /* RangeStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeStepperSample.swift; sourceTree = "<group>"; };
 		189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepperSample.swift; sourceTree = "<group>"; };
+		189574E427ED0971003D15E6 /* SimpleToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToggleSample.swift; sourceTree = "<group>"; };
+		189574E627ED0CCF003D15E6 /* AdvancedToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedToggleSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +242,8 @@
 				189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */,
 				189574E027ECFA5D003D15E6 /* RangeStepperSample.swift */,
 				189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */,
+				189574E427ED0971003D15E6 /* SimpleToggleSample.swift */,
+				189574E627ED0CCF003D15E6 /* AdvancedToggleSample.swift */,
 			);
 			path = ValueInput;
 			sourceTree = "<group>";
@@ -389,12 +395,14 @@
 				189574D027E99763003D15E6 /* MenuWithSectionSample.swift in Sources */,
 				189574E327ECFBBA003D15E6 /* CustomStepperSample.swift in Sources */,
 				189574B827E90F6E003D15E6 /* TextFieldList.swift in Sources */,
+				189574E527ED0971003D15E6 /* SimpleToggleSample.swift in Sources */,
 				1849E75327E6891E006F4349 /* ContentView.swift in Sources */,
 				189574CA27E98160003D15E6 /* MenuSample.swift in Sources */,
 				189574D227E99B9C003D15E6 /* MenuWithStyleSample.swift in Sources */,
 				189574DB27EA8935003D15E6 /* SimpleSliderSample.swift in Sources */,
 				189574CE27E98583003D15E6 /* MenuPrimaryActionSample.swift in Sources */,
 				189574C827E97DB8003D15E6 /* MenuList.swift in Sources */,
+				189574E727ED0CCF003D15E6 /* AdvancedToggleSample.swift in Sources */,
 				189574B427E90895003D15E6 /* NameComponentTextField.swift in Sources */,
 				189574C327E966DA003D15E6 /* ImageList.swift in Sources */,
 				1849E75127E6891E006F4349 /* SwiftUICatalogExampleApp.swift in Sources */,
