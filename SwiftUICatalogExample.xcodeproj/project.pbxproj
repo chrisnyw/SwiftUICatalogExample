@@ -36,6 +36,9 @@
 		189574D927EA6973003D15E6 /* ValueInputList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574D827EA6973003D15E6 /* ValueInputList.swift */; };
 		189574DB27EA8935003D15E6 /* SimpleSliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574DA27EA8934003D15E6 /* SimpleSliderSample.swift */; };
 		189574DD27EA896D003D15E6 /* AdvancedSliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574DC27EA896D003D15E6 /* AdvancedSliderSample.swift */; };
+		189574DF27ECF7B2003D15E6 /* BehaviorStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */; };
+		189574E127ECFA5D003D15E6 /* RangeStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E027ECFA5D003D15E6 /* RangeStepperSample.swift */; };
+		189574E327ECFBBA003D15E6 /* CustomStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,9 @@
 		189574D827EA6973003D15E6 /* ValueInputList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueInputList.swift; sourceTree = "<group>"; };
 		189574DA27EA8934003D15E6 /* SimpleSliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSliderSample.swift; sourceTree = "<group>"; };
 		189574DC27EA896D003D15E6 /* AdvancedSliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSliderSample.swift; sourceTree = "<group>"; };
+		189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorStepperSample.swift; sourceTree = "<group>"; };
+		189574E027ECFA5D003D15E6 /* RangeStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeStepperSample.swift; sourceTree = "<group>"; };
+		189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepperSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +235,9 @@
 				189574D827EA6973003D15E6 /* ValueInputList.swift */,
 				189574DA27EA8934003D15E6 /* SimpleSliderSample.swift */,
 				189574DC27EA896D003D15E6 /* AdvancedSliderSample.swift */,
+				189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */,
+				189574E027ECFA5D003D15E6 /* RangeStepperSample.swift */,
+				189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */,
 			);
 			path = ValueInput;
 			sourceTree = "<group>";
@@ -366,9 +375,11 @@
 				189574DD27EA896D003D15E6 /* AdvancedSliderSample.swift in Sources */,
 				189574B227E906F0003D15E6 /* EmailTextField.swift in Sources */,
 				189574BA27E90F8D003D15E6 /* PlaceholderTextField.swift in Sources */,
+				189574DF27ECF7B2003D15E6 /* BehaviorStepperSample.swift in Sources */,
 				189574BE27E91339003D15E6 /* TextList.swift in Sources */,
 				189574C627E97DAA003D15E6 /* EditButtonSample.swift in Sources */,
 				189574D927EA6973003D15E6 /* ValueInputList.swift in Sources */,
+				189574E127ECFA5D003D15E6 /* RangeStepperSample.swift in Sources */,
 				189574AF27E69373003D15E6 /* ViewAndControlList.swift in Sources */,
 				189574B627E90DC0003D15E6 /* NumberTextField.swift in Sources */,
 				189574C027E964C9003D15E6 /* TextEditorSample.swift in Sources */,
@@ -376,6 +387,7 @@
 				189574D427EA6316003D15E6 /* LinkList.swift in Sources */,
 				189574CC27E98399003D15E6 /* MenuLabelSample.swift in Sources */,
 				189574D027E99763003D15E6 /* MenuWithSectionSample.swift in Sources */,
+				189574E327ECFBBA003D15E6 /* CustomStepperSample.swift in Sources */,
 				189574B827E90F6E003D15E6 /* TextFieldList.swift in Sources */,
 				1849E75327E6891E006F4349 /* ContentView.swift in Sources */,
 				189574CA27E98160003D15E6 /* MenuSample.swift in Sources */,
