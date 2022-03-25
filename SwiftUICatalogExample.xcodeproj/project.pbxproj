@@ -43,6 +43,13 @@
 		189574E927ED42B4003D15E6 /* SliderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E827ED42B4003D15E6 /* SliderList.swift */; };
 		189574EB27ED42D3003D15E6 /* StepperList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574EA27ED42D3003D15E6 /* StepperList.swift */; };
 		189574ED27ED42EE003D15E6 /* ToggleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574EC27ED42EE003D15E6 /* ToggleList.swift */; };
+		189574F027ED4408003D15E6 /* PickerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574EF27ED4408003D15E6 /* PickerList.swift */; };
+		189574F227ED47F2003D15E6 /* SimplePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574F127ED47F2003D15E6 /* SimplePickerSample.swift */; };
+		189574F427ED4B33003D15E6 /* DatePickerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574F327ED4B33003D15E6 /* DatePickerList.swift */; };
+		189574F627ED4B40003D15E6 /* SimpleDatePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574F527ED4B40003D15E6 /* SimpleDatePickerSample.swift */; };
+		189574F827ED4B8B003D15E6 /* RangeDatePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574F727ED4B8B003D15E6 /* RangeDatePickerSample.swift */; };
+		189574FA27ED5210003D15E6 /* SimpleColorPickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574F927ED5210003D15E6 /* SimpleColorPickerSample.swift */; };
+		189574FC27ED52D6003D15E6 /* ColorPickerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574FB27ED52D6003D15E6 /* ColorPickerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +109,13 @@
 		189574E827ED42B4003D15E6 /* SliderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderList.swift; sourceTree = "<group>"; };
 		189574EA27ED42D3003D15E6 /* StepperList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperList.swift; sourceTree = "<group>"; };
 		189574EC27ED42EE003D15E6 /* ToggleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleList.swift; sourceTree = "<group>"; };
+		189574EF27ED4408003D15E6 /* PickerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerList.swift; sourceTree = "<group>"; };
+		189574F127ED47F2003D15E6 /* SimplePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePickerSample.swift; sourceTree = "<group>"; };
+		189574F327ED4B33003D15E6 /* DatePickerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerList.swift; sourceTree = "<group>"; };
+		189574F527ED4B40003D15E6 /* SimpleDatePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDatePickerSample.swift; sourceTree = "<group>"; };
+		189574F727ED4B8B003D15E6 /* RangeDatePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeDatePickerSample.swift; sourceTree = "<group>"; };
+		189574F927ED5210003D15E6 /* SimpleColorPickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleColorPickerSample.swift; sourceTree = "<group>"; };
+		189574FB27ED52D6003D15E6 /* ColorPickerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +203,7 @@
 		189574AD27E6934D003D15E6 /* ViewsAndControls */ = {
 			isa = PBXGroup;
 			children = (
+				189574EE27ED43FD003D15E6 /* Picker */,
 				189574D727EA6964003D15E6 /* ValueInput */,
 				189574C427E97D85003D15E6 /* Button */,
 				189574C127E966AA003D15E6 /* Image */,
@@ -252,6 +267,20 @@
 				189574E627ED0CCF003D15E6 /* AdvancedToggleSample.swift */,
 			);
 			path = ValueInput;
+			sourceTree = "<group>";
+		};
+		189574EE27ED43FD003D15E6 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				189574EF27ED4408003D15E6 /* PickerList.swift */,
+				189574F127ED47F2003D15E6 /* SimplePickerSample.swift */,
+				189574F327ED4B33003D15E6 /* DatePickerList.swift */,
+				189574F527ED4B40003D15E6 /* SimpleDatePickerSample.swift */,
+				189574F727ED4B8B003D15E6 /* RangeDatePickerSample.swift */,
+				189574FB27ED52D6003D15E6 /* ColorPickerList.swift */,
+				189574F927ED5210003D15E6 /* SimpleColorPickerSample.swift */,
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,11 +413,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189574F627ED4B40003D15E6 /* SimpleDatePickerSample.swift in Sources */,
 				189574DD27EA896D003D15E6 /* AdvancedSliderSample.swift in Sources */,
 				189574B227E906F0003D15E6 /* EmailTextField.swift in Sources */,
 				189574BA27E90F8D003D15E6 /* PlaceholderTextField.swift in Sources */,
 				189574DF27ECF7B2003D15E6 /* BehaviorStepperSample.swift in Sources */,
 				189574BE27E91339003D15E6 /* TextList.swift in Sources */,
+				189574F027ED4408003D15E6 /* PickerList.swift in Sources */,
 				189574C627E97DAA003D15E6 /* EditButtonSample.swift in Sources */,
 				189574E127ECFA5D003D15E6 /* RangeStepperSample.swift in Sources */,
 				189574E927ED42B4003D15E6 /* SliderList.swift in Sources */,
@@ -404,13 +435,18 @@
 				189574B827E90F6E003D15E6 /* TextFieldList.swift in Sources */,
 				189574EB27ED42D3003D15E6 /* StepperList.swift in Sources */,
 				189574E527ED0971003D15E6 /* SimpleToggleSample.swift in Sources */,
+				189574F427ED4B33003D15E6 /* DatePickerList.swift in Sources */,
+				189574FA27ED5210003D15E6 /* SimpleColorPickerSample.swift in Sources */,
 				1849E75327E6891E006F4349 /* ContentView.swift in Sources */,
 				189574CA27E98160003D15E6 /* MenuSample.swift in Sources */,
 				189574D227E99B9C003D15E6 /* MenuWithStyleSample.swift in Sources */,
 				189574DB27EA8935003D15E6 /* SimpleSliderSample.swift in Sources */,
 				189574CE27E98583003D15E6 /* MenuPrimaryActionSample.swift in Sources */,
 				189574C827E97DB8003D15E6 /* MenuList.swift in Sources */,
+				189574F827ED4B8B003D15E6 /* RangeDatePickerSample.swift in Sources */,
+				189574FC27ED52D6003D15E6 /* ColorPickerList.swift in Sources */,
 				189574E727ED0CCF003D15E6 /* AdvancedToggleSample.swift in Sources */,
+				189574F227ED47F2003D15E6 /* SimplePickerSample.swift in Sources */,
 				189574B427E90895003D15E6 /* NameComponentTextField.swift in Sources */,
 				189574C327E966DA003D15E6 /* ImageList.swift in Sources */,
 				1849E75127E6891E006F4349 /* SwiftUICatalogExampleApp.swift in Sources */,
