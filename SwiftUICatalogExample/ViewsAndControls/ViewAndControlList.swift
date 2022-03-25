@@ -25,7 +25,9 @@ struct ViewAndControlList: View {
         NavigationLink("Links", destination: { LinkList() })
       }
       Section(header: Text("Value Input")) {
-        NavigationLink("Value Inputs", destination: { ValueInputList() })
+        NavigationLink("Sliders", destination: { SliderList() })
+        NavigationLink("Steppers", destination: { StepperList() })
+        NavigationLink("Toggles", destination: { ToggleList() })
       }
     }.navigationTitle("Views and Controls Samples")
   }

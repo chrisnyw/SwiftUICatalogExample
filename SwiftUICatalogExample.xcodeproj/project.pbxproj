@@ -33,7 +33,6 @@
 		189574D227E99B9C003D15E6 /* MenuWithStyleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574D127E99B9C003D15E6 /* MenuWithStyleSample.swift */; };
 		189574D427EA6316003D15E6 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574D327EA6315003D15E6 /* LinkList.swift */; };
 		189574D627EA6875003D15E6 /* LinkSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574D527EA6875003D15E6 /* LinkSample.swift */; };
-		189574D927EA6973003D15E6 /* ValueInputList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574D827EA6973003D15E6 /* ValueInputList.swift */; };
 		189574DB27EA8935003D15E6 /* SimpleSliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574DA27EA8934003D15E6 /* SimpleSliderSample.swift */; };
 		189574DD27EA896D003D15E6 /* AdvancedSliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574DC27EA896D003D15E6 /* AdvancedSliderSample.swift */; };
 		189574DF27ECF7B2003D15E6 /* BehaviorStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */; };
@@ -41,6 +40,9 @@
 		189574E327ECFBBA003D15E6 /* CustomStepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */; };
 		189574E527ED0971003D15E6 /* SimpleToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E427ED0971003D15E6 /* SimpleToggleSample.swift */; };
 		189574E727ED0CCF003D15E6 /* AdvancedToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E627ED0CCF003D15E6 /* AdvancedToggleSample.swift */; };
+		189574E927ED42B4003D15E6 /* SliderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574E827ED42B4003D15E6 /* SliderList.swift */; };
+		189574EB27ED42D3003D15E6 /* StepperList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574EA27ED42D3003D15E6 /* StepperList.swift */; };
+		189574ED27ED42EE003D15E6 /* ToggleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574EC27ED42EE003D15E6 /* ToggleList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +92,6 @@
 		189574D127E99B9C003D15E6 /* MenuWithStyleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuWithStyleSample.swift; sourceTree = "<group>"; };
 		189574D327EA6315003D15E6 /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		189574D527EA6875003D15E6 /* LinkSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSample.swift; sourceTree = "<group>"; };
-		189574D827EA6973003D15E6 /* ValueInputList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueInputList.swift; sourceTree = "<group>"; };
 		189574DA27EA8934003D15E6 /* SimpleSliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSliderSample.swift; sourceTree = "<group>"; };
 		189574DC27EA896D003D15E6 /* AdvancedSliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSliderSample.swift; sourceTree = "<group>"; };
 		189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorStepperSample.swift; sourceTree = "<group>"; };
@@ -98,6 +99,9 @@
 		189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepperSample.swift; sourceTree = "<group>"; };
 		189574E427ED0971003D15E6 /* SimpleToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToggleSample.swift; sourceTree = "<group>"; };
 		189574E627ED0CCF003D15E6 /* AdvancedToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedToggleSample.swift; sourceTree = "<group>"; };
+		189574E827ED42B4003D15E6 /* SliderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderList.swift; sourceTree = "<group>"; };
+		189574EA27ED42D3003D15E6 /* StepperList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperList.swift; sourceTree = "<group>"; };
+		189574EC27ED42EE003D15E6 /* ToggleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,12 +240,14 @@
 		189574D727EA6964003D15E6 /* ValueInput */ = {
 			isa = PBXGroup;
 			children = (
-				189574D827EA6973003D15E6 /* ValueInputList.swift */,
+				189574E827ED42B4003D15E6 /* SliderList.swift */,
 				189574DA27EA8934003D15E6 /* SimpleSliderSample.swift */,
 				189574DC27EA896D003D15E6 /* AdvancedSliderSample.swift */,
+				189574EA27ED42D3003D15E6 /* StepperList.swift */,
 				189574DE27ECF7B2003D15E6 /* BehaviorStepperSample.swift */,
 				189574E027ECFA5D003D15E6 /* RangeStepperSample.swift */,
 				189574E227ECFBBA003D15E6 /* CustomStepperSample.swift */,
+				189574EC27ED42EE003D15E6 /* ToggleList.swift */,
 				189574E427ED0971003D15E6 /* SimpleToggleSample.swift */,
 				189574E627ED0CCF003D15E6 /* AdvancedToggleSample.swift */,
 			);
@@ -384,8 +390,9 @@
 				189574DF27ECF7B2003D15E6 /* BehaviorStepperSample.swift in Sources */,
 				189574BE27E91339003D15E6 /* TextList.swift in Sources */,
 				189574C627E97DAA003D15E6 /* EditButtonSample.swift in Sources */,
-				189574D927EA6973003D15E6 /* ValueInputList.swift in Sources */,
 				189574E127ECFA5D003D15E6 /* RangeStepperSample.swift in Sources */,
+				189574E927ED42B4003D15E6 /* SliderList.swift in Sources */,
+				189574ED27ED42EE003D15E6 /* ToggleList.swift in Sources */,
 				189574AF27E69373003D15E6 /* ViewAndControlList.swift in Sources */,
 				189574B627E90DC0003D15E6 /* NumberTextField.swift in Sources */,
 				189574C027E964C9003D15E6 /* TextEditorSample.swift in Sources */,
@@ -395,6 +402,7 @@
 				189574D027E99763003D15E6 /* MenuWithSectionSample.swift in Sources */,
 				189574E327ECFBBA003D15E6 /* CustomStepperSample.swift in Sources */,
 				189574B827E90F6E003D15E6 /* TextFieldList.swift in Sources */,
+				189574EB27ED42D3003D15E6 /* StepperList.swift in Sources */,
 				189574E527ED0971003D15E6 /* SimpleToggleSample.swift in Sources */,
 				1849E75327E6891E006F4349 /* ContentView.swift in Sources */,
 				189574CA27E98160003D15E6 /* MenuSample.swift in Sources */,
