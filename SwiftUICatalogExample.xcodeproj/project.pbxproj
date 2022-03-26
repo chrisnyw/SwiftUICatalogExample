@@ -53,6 +53,8 @@
 		189574FF27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574FE27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift */; };
 		1895750127ED652C003D15E6 /* StackSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750027ED652C003D15E6 /* StackSample.swift */; };
 		1895750427EFB206003D15E6 /* RectanglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750327EFB206003D15E6 /* RectanglesView.swift */; };
+		1895750627EFB3E4003D15E6 /* ListSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750527EFB3E4003D15E6 /* ListSample.swift */; };
+		1895750827EFB5EC003D15E6 /* ScrollViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750727EFB5EC003D15E6 /* ScrollViewSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +124,8 @@
 		189574FE27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayoutAndPresentationsList.swift; sourceTree = "<group>"; };
 		1895750027ED652C003D15E6 /* StackSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSample.swift; sourceTree = "<group>"; };
 		1895750327EFB206003D15E6 /* RectanglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesView.swift; sourceTree = "<group>"; };
+		1895750527EFB3E4003D15E6 /* ListSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSample.swift; sourceTree = "<group>"; };
+		1895750727EFB5EC003D15E6 /* ScrollViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +300,8 @@
 			children = (
 				189574FE27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift */,
 				1895750027ED652C003D15E6 /* StackSample.swift */,
+				1895750527EFB3E4003D15E6 /* ListSample.swift */,
+				1895750727EFB5EC003D15E6 /* ScrollViewSample.swift */,
 			);
 			path = ViewLayoutAndPresentations;
 			sourceTree = "<group>";
@@ -440,6 +446,7 @@
 			files = (
 				189574F627ED4B40003D15E6 /* SimpleDatePickerSample.swift in Sources */,
 				189574DD27EA896D003D15E6 /* AdvancedSliderSample.swift in Sources */,
+				1895750827EFB5EC003D15E6 /* ScrollViewSample.swift in Sources */,
 				1895750427EFB206003D15E6 /* RectanglesView.swift in Sources */,
 				189574B227E906F0003D15E6 /* EmailTextField.swift in Sources */,
 				189574BA27E90F8D003D15E6 /* PlaceholderTextField.swift in Sources */,
@@ -451,6 +458,7 @@
 				189574E127ECFA5D003D15E6 /* RangeStepperSample.swift in Sources */,
 				189574E927ED42B4003D15E6 /* SliderList.swift in Sources */,
 				189574ED27ED42EE003D15E6 /* ToggleList.swift in Sources */,
+				1895750627EFB3E4003D15E6 /* ListSample.swift in Sources */,
 				189574AF27E69373003D15E6 /* ViewAndControlList.swift in Sources */,
 				189574B627E90DC0003D15E6 /* NumberTextField.swift in Sources */,
 				189574C027E964C9003D15E6 /* TextEditorSample.swift in Sources */,
