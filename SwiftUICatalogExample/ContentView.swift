@@ -25,6 +25,7 @@ struct ComponemtList: View {
     List {
       Section(header: Text("User Interface")) {
         NavigationLink("View and Controls", destination: ViewAndControlList())
+        NavigationLink("View Layout and Presentations", destination: ViewLayoutAndPresentationsList())
       }
     }.navigationBarTitle("Component")
   }

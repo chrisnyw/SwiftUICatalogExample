@@ -50,6 +50,9 @@
 		189574F827ED4B8B003D15E6 /* RangeDatePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574F727ED4B8B003D15E6 /* RangeDatePickerSample.swift */; };
 		189574FA27ED5210003D15E6 /* SimpleColorPickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574F927ED5210003D15E6 /* SimpleColorPickerSample.swift */; };
 		189574FC27ED52D6003D15E6 /* ColorPickerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574FB27ED52D6003D15E6 /* ColorPickerList.swift */; };
+		189574FF27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189574FE27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift */; };
+		1895750127ED652C003D15E6 /* StackSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750027ED652C003D15E6 /* StackSample.swift */; };
+		1895750427EFB206003D15E6 /* RectanglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750327EFB206003D15E6 /* RectanglesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +119,9 @@
 		189574F727ED4B8B003D15E6 /* RangeDatePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeDatePickerSample.swift; sourceTree = "<group>"; };
 		189574F927ED5210003D15E6 /* SimpleColorPickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleColorPickerSample.swift; sourceTree = "<group>"; };
 		189574FB27ED52D6003D15E6 /* ColorPickerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerList.swift; sourceTree = "<group>"; };
+		189574FE27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayoutAndPresentationsList.swift; sourceTree = "<group>"; };
+		1895750027ED652C003D15E6 /* StackSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSample.swift; sourceTree = "<group>"; };
+		1895750327EFB206003D15E6 /* RectanglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,8 @@
 		1849E74F27E6891E006F4349 /* SwiftUICatalogExample */ = {
 			isa = PBXGroup;
 			children = (
+				1895750227EFB1EF003D15E6 /* Views */,
+				189574FD27ED649C003D15E6 /* ViewLayoutAndPresentations */,
 				189574AD27E6934D003D15E6 /* ViewsAndControls */,
 				1849E75027E6891E006F4349 /* SwiftUICatalogExampleApp.swift */,
 				1849E75227E6891E006F4349 /* ContentView.swift */,
@@ -281,6 +289,23 @@
 				189574F927ED5210003D15E6 /* SimpleColorPickerSample.swift */,
 			);
 			path = Picker;
+			sourceTree = "<group>";
+		};
+		189574FD27ED649C003D15E6 /* ViewLayoutAndPresentations */ = {
+			isa = PBXGroup;
+			children = (
+				189574FE27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift */,
+				1895750027ED652C003D15E6 /* StackSample.swift */,
+			);
+			path = ViewLayoutAndPresentations;
+			sourceTree = "<group>";
+		};
+		1895750227EFB1EF003D15E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1895750327EFB206003D15E6 /* RectanglesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,10 +440,12 @@
 			files = (
 				189574F627ED4B40003D15E6 /* SimpleDatePickerSample.swift in Sources */,
 				189574DD27EA896D003D15E6 /* AdvancedSliderSample.swift in Sources */,
+				1895750427EFB206003D15E6 /* RectanglesView.swift in Sources */,
 				189574B227E906F0003D15E6 /* EmailTextField.swift in Sources */,
 				189574BA27E90F8D003D15E6 /* PlaceholderTextField.swift in Sources */,
 				189574DF27ECF7B2003D15E6 /* BehaviorStepperSample.swift in Sources */,
 				189574BE27E91339003D15E6 /* TextList.swift in Sources */,
+				189574FF27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift in Sources */,
 				189574F027ED4408003D15E6 /* PickerList.swift in Sources */,
 				189574C627E97DAA003D15E6 /* EditButtonSample.swift in Sources */,
 				189574E127ECFA5D003D15E6 /* RangeStepperSample.swift in Sources */,
@@ -440,6 +467,7 @@
 				1849E75327E6891E006F4349 /* ContentView.swift in Sources */,
 				189574CA27E98160003D15E6 /* MenuSample.swift in Sources */,
 				189574D227E99B9C003D15E6 /* MenuWithStyleSample.swift in Sources */,
+				1895750127ED652C003D15E6 /* StackSample.swift in Sources */,
 				189574DB27EA8935003D15E6 /* SimpleSliderSample.swift in Sources */,
 				189574CE27E98583003D15E6 /* MenuPrimaryActionSample.swift in Sources */,
 				189574C827E97DB8003D15E6 /* MenuList.swift in Sources */,
