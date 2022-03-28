@@ -55,6 +55,7 @@
 		1895750427EFB206003D15E6 /* RectanglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750327EFB206003D15E6 /* RectanglesView.swift */; };
 		1895750627EFB3E4003D15E6 /* ListSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750527EFB3E4003D15E6 /* ListSample.swift */; };
 		1895750827EFB5EC003D15E6 /* ScrollViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750727EFB5EC003D15E6 /* ScrollViewSample.swift */; };
+		1895750A27EFD094003D15E6 /* LazyStackSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895750927EFD094003D15E6 /* LazyStackSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		1895750327EFB206003D15E6 /* RectanglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglesView.swift; sourceTree = "<group>"; };
 		1895750527EFB3E4003D15E6 /* ListSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSample.swift; sourceTree = "<group>"; };
 		1895750727EFB5EC003D15E6 /* ScrollViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSample.swift; sourceTree = "<group>"; };
+		1895750927EFD094003D15E6 /* LazyStackSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +302,7 @@
 			children = (
 				189574FE27ED64EF003D15E6 /* ViewLayoutAndPresentationsList.swift */,
 				1895750027ED652C003D15E6 /* StackSample.swift */,
+				1895750927EFD094003D15E6 /* LazyStackSample.swift */,
 				1895750527EFB3E4003D15E6 /* ListSample.swift */,
 				1895750727EFB5EC003D15E6 /* ScrollViewSample.swift */,
 			);
@@ -476,6 +479,7 @@
 				189574CA27E98160003D15E6 /* MenuSample.swift in Sources */,
 				189574D227E99B9C003D15E6 /* MenuWithStyleSample.swift in Sources */,
 				1895750127ED652C003D15E6 /* StackSample.swift in Sources */,
+				1895750A27EFD094003D15E6 /* LazyStackSample.swift in Sources */,
 				189574DB27EA8935003D15E6 /* SimpleSliderSample.swift in Sources */,
 				189574CE27E98583003D15E6 /* MenuPrimaryActionSample.swift in Sources */,
 				189574C827E97DB8003D15E6 /* MenuList.swift in Sources */,
